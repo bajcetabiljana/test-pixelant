@@ -5,20 +5,19 @@ form {
     float: left;
     margin-right: 100px;
     margin-left: 70px;
-    border-left: 1px solid #e7e7e7;
-    border-right: 1px solid #e7e7e7;
 }
 form span {
     position: relative;
     left: 24px;
 }
 form input {
-    border: 0;
+    border: 1px solid #e7e7e7;
+    border-top: 0;
+    border-bottom: 0;
     width: 110px;
 }
 .search-icon-left {
-    padding-left: 28px;
-    /*height: 27px;*/
+    padding-left: 28px;    /*height: 27px;*/
 }
 .search-icon-left {
     font-size: 11px;
@@ -42,7 +41,6 @@ form input {
     border-bottom: solid 1px #e7e7e7;
     color: black;
     font-size: 29px;
-    padding-left: 130px;
     padding-bottom: 20px;
     padding-top: 15px;
 }
@@ -54,7 +52,7 @@ form input {
 .navbar-main a {
     font-size: 18px;
 }
-li: not(.dropdown) a {
+li:not(.dropdown) a {
     font-weight: normal;
 }
 .caret {
@@ -99,12 +97,10 @@ li: not(.dropdown) a {
 }
 .carousel-caption {
     width: 50%;
-    top:0;
-    bottom:0;
-    left:50px;
-    /*background-color: white;*/
-    background-color: rgba(255,255,255,0.5);
-    /*opacity: 0.4;*/
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    background-color: rgba(255, 255, 255, 0.5);  
     color: black;
 }
 .description-slide>p {
@@ -131,14 +127,14 @@ li: not(.dropdown) a {
     margin: auto;
     height: 65px;
 }
-.first-row .btn {
+.main .first-row .btn {
     margin-top: 15px;
     padding: 3px 12px;
     font-size: 11px;
     color: gray;
     font-weight: bold;
 }
-.first-row {
+.main .first-row {
     border-bottom: 1px solid #e7e7e7;
     padding-bottom: 50px;
     margin-bottom: 50px;
@@ -149,38 +145,36 @@ li: not(.dropdown) a {
     background-color: #e7e7e7;
     padding: 24%;
 }
-.second-row {
+.main .second-row {
     padding-bottom: 50px;
     margin-bottom: 50px;
     color: gray;
 }
-.second-row .btn {
+.main .second-row .btn {
     font-size: 11px;
     color: gray;
     font-weight: bold;
     border: 0;
     color: orangered;
-
 }
-.service-picture{
+.service-picture {
     margin-bottom: 25px;
 }
-
-.btn{
+.btn {
     padding-left: 0;
 }
-.btn:hover{
+.btn:hover {
     background-color: orangered;
     color: #e7e7e7;
 }
-.second-row .btn:hover{
+.second-row .btn:hover {
     background-color: transparent;
     color: orangered;
 }
-footer{
+footer {
     background-color: #e7e7e7;
     font-size: 10px;
 }
-.reserved-rights{
+.reserved-rights {
     background-color: white;
 }
