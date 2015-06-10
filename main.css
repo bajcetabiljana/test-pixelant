@@ -3,22 +3,22 @@ body {
     color: gray;
     font-size: 14px;
 }
-form {
+header form {
     margin-right: 100px;
     margin-left: 70px;
 }
-form span {
+header form span {
     position: relative;
     left: 27px;
     color: black;
 }
-form input {
+header form input {
     border: 1px solid #e7e7e7;
     border-top: 0;
     border-bottom: 0;
     width: 120px;
 }
-.input-sm{
+.input-sm {
     height: 100%;
 }
 .search-icon-left {
@@ -82,7 +82,7 @@ li:not(.dropdown) a {
 .slide {
     position: relative;
 }
-.carousel-inner>.item>a>img {
+#slide-show .carousel-inner>.item>img {
     height: 320px;
     width: 100%;
 }
@@ -213,12 +213,7 @@ footer {
 img.icon {
     height: 50px;
 }
-/*.contact p: nth-child(3) {*/
-    /*margin-top: 40px;*/
-    /*font-weight: bolder;*/
-/*}*/
-
-.follow-us{
+.follow-us {
     font-weight: bolder;
 }
 .phone-number {
@@ -233,7 +228,6 @@ img.icon {
 .email:hover {
     color: black;
 }
-
 form .btn {
     background-color: orangered;
     color: white;
@@ -253,45 +247,48 @@ form .btn {
     padding-top: 20px;
     padding-bottom: 10px;
 }
-@media(min-width:1000px){
+@media(min-width:1000px) {
     footer form {
-    width: 95%;
+        width: 95%;
+    }
 }
-}
-
-
-@media(max-width:1000px){
-.main-first-row .col-lg-4{
-    margin-bottom: 40px;
-}
-    .main-first-row{
-     padding:0;
-}
-.main-first-row .text .btn{
-    margin-bottom: 10px;
-
-}
-.main-second-row .text .btn{
-    margin-bottom: 60px;
-}
-.footer-row{
-    padding-top: 10px;
-    padding-bottom: 70px;
-}
-.contact{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.follow-us{
-    margin-bottom: 30px;
-}
-.rights{
-    font-size: 12px;
-}
-form input{
-    border: 1px solid #e7e7e7;
-}
-
-
-
+@media(max-width:1200px) {
+    .description-slide>p {
+        font-size: 17px;
+    }
+    .description-slide>h2 {
+        font-size: 20px;
+    }
+    .carousel-caption {
+        width: 70%;
+    }
+    .main-first-row .col-md-4 {
+        margin-bottom: 40px;
+    }
+    .main-first-row {
+        padding: 0;
+    }
+    .main-first-row .text .btn {
+        margin-bottom: 10px;
+    }
+    .main-second-row .text .btn {
+        margin-bottom: 60px;
+    }
+    .footer-row {
+        padding-top: 10px;
+        padding-bottom: 70px;
+    }
+    .contact {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .follow-us {
+        margin-bottom: 30px;
+    }
+    .rights {
+        font-size: 12px;
+    }
+    form input {
+        border: 1px solid #e7e7e7;
+    }
 }
