@@ -18,6 +18,9 @@ form input {
     border-bottom: 0;
     width: 120px;
 }
+.input-sm{
+    height: 100%;
+}
 .search-icon-left {
     font-size: 14px;
     font-weight: bold;
@@ -74,7 +77,7 @@ li:not(.dropdown) a {
 }
 .slide-show {
     background-color: #e7e7e7;
-    border-top: 2px solid gray;
+    border-top: 2px solid silver;
 }
 .slide {
     position: relative;
@@ -210,8 +213,12 @@ footer {
 img.icon {
     height: 50px;
 }
-.contact p: nth-child(3) {
-    margin-top: 40px;
+/*.contact p: nth-child(3) {*/
+    /*margin-top: 40px;*/
+    /*font-weight: bolder;*/
+/*}*/
+
+.follow-us{
     font-weight: bolder;
 }
 .phone-number {
@@ -226,9 +233,7 @@ img.icon {
 .email:hover {
     color: black;
 }
-footer form {
-    width: 100%;
-}
+
 form .btn {
     background-color: orangered;
     color: white;
@@ -247,4 +252,46 @@ form .btn {
     font-weight: bolder;
     padding-top: 20px;
     padding-bottom: 10px;
+}
+@media(min-width:1000px){
+    footer form {
+    width: 95%;
+}
+}
+
+
+@media(max-width:1000px){
+.main-first-row .col-lg-4{
+    margin-bottom: 40px;
+}
+    .main-first-row{
+     padding:0;
+}
+.main-first-row .text .btn{
+    margin-bottom: 10px;
+
+}
+.main-second-row .text .btn{
+    margin-bottom: 60px;
+}
+.footer-row{
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+.contact{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.follow-us{
+    margin-bottom: 30px;
+}
+.rights{
+    font-size: 12px;
+}
+form input{
+    border: 1px solid #e7e7e7;
+}
+
+
+
 }
