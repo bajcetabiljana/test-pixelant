@@ -190,6 +190,14 @@ li:not(.dropdown) a {
     background-color: transparent;
     color: orangered;
 }
+.sum-icons li{
+  list-style-type: none;
+    display: inline;
+}
+.sum-icons img{
+    width: 23%;
+}
+
 footer {
     color: black;
     background-color: #e7e7e7;
