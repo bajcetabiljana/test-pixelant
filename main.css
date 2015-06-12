@@ -3,50 +3,35 @@ body {
     color: gray;
     font-size: 14px;
 }
-header form {
-    margin-right: 100px;
-    margin-left: 70px;
-}
-header form span {
+.first-row form span{
     position: relative;
-    left: 27px;
+    left: 25px;
     color: black;
 }
-header form input {
-    border: 1px solid #e7e7e7;
-    border-top: 0;
-    border-bottom: 0;
-    width: 130px;
+.first-row form input{
+padding-left: 30px;
+width: 70%;
+border-top: 0;
+border-bottom: 0;
+border-left: 1px solid  #e7e7e7;
+border-right: 1px solid  #e7e7e7;
 }
-.input-sm {
-    height: 100%;
+.first-row li{
+    margin-right: 30px;
 }
-.search-icon-left {
-    font-size: 14px;
-    font-weight: bold;
-    padding-left: 30px;
-}
-.navbar-top ul{
-    margin-bottom: 0;
-    margin-top: 4px;
-
-}
-.navbar-top nav li {
-    list-style-type: none;
-    display: inline;
-    margin-right: 20px;
-}
-.navbar-top nav li a {
+.first-row a{
     color: black;
-    font-weight: bold;
-    font-size: 16px;
+}
+.menu{
+    padding-top: 5px;
 }
 .navbar-default .navbar-nav>li>a {
-    color: black;
-}
-.navbar-default .navbar-nav>li>a:hover {
-    color: orangered;
-}
+  color: black;
+  }
+
+
+
+
 .icons {
     height: 15px;
 }
@@ -55,8 +40,8 @@ header form input {
     border-bottom: solid 1px #e7e7e7;
     color: black;
     font-size: 39px;
-    padding-bottom: 30px;
-    padding-top: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 .navbar-main nav {
     margin-bottom: 0;
@@ -264,21 +249,25 @@ form .btn {
     padding-top: 20px;
     padding-bottom: 10px;
 }
+@media(max-width: 550px){
+    .first-row{
+    display: none;
+}
+}
+
+@media(max-width: 770px){
+    header form input {
+    border: 3px solid #e7e7e7;}
+.first-row{
+    display: none;
+}
+
+}
+
 @media(min-width:1000px) {
     footer form {
         width: 95%;
     }
-}
-@media(max-width: 550px){
-    header form input {
-    
-}
-}
-
-@media(max-width: 767px){
-    header form input {
-    border: 3px solid #e7e7e7;
-
 }
 @media(max-width:1200px) {
     .description-slide>p {
@@ -320,3 +309,6 @@ form .btn {
         border: 1px solid #e7e7e7;
     }
 }
+
+
+
