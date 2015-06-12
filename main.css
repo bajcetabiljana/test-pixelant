@@ -269,6 +269,17 @@ form .btn {
         width: 95%;
     }
 }
+@media(max-width: 550px){
+    header form input {
+    
+}
+}
+
+@media(max-width: 767px){
+    header form input {
+    border: 3px solid #e7e7e7;
+
+}
 @media(max-width:1200px) {
     .description-slide>p {
         font-size: 17px;
