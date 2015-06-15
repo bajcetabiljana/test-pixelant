@@ -247,58 +247,23 @@ form .btn {
     padding-top: 20px;
     padding-bottom: 10px;
 }
-/*@media(max-width:767px) {
-
-    header form input {
-        border: 3px solid #e7e7e7;
-    }
-    .pull-right {
-        float: none;
-    }
-    .first-row form input {
-        border: 1px solid #e7e7e7;
-    }
-    .first-row a {
-        display: none;
-    }
-    .first-row img {
-        height: 50px;
-        float: left;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .first-row:first-child img {
-        margin-left: 60px;
-    }
-}*/
-
-@media(max-width: 767px){
+@media(max-width:767px) {
     .first-row{
-        height: 45px;
+        position: relative;
+        right: 10px;
     }
-   .first-row form input{
+
+.first-row li{
+    float: left;
+    margin-right: 10px;
+}
+.first-row form input{
        border-bottom: 1px solid #e7e7e7; 
        border-top: 1px solid #e7e7e7;
     }
-.first-row ul{
-    float: none;
-
-} 
-.first-row form input{
-    width: 100px;
+  
+    
 }
-.first-row .menu {
-    float: right;
-    margin-left: 30px;
-    position: relative;
-    bottom: 30px;
-}
-}
-
-
-
-
-
 
 @media(max-width:1200px) {
     .description-slide>p {
